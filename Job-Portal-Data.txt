@@ -1,0 +1,318 @@
+H2 DB
+
+http://localhost:8080/h2-console
+
+QUERY DATA :
+
+INSERT INTO Jobs (id, title, description, location, salary, company_email, company_name, employer_name, job_type)
+VALUES
+  (1, 'Software Engineer', 'Develop software applications', 'New York', 80000.0, 'example1@example.com', 'ABC Inc.', 'John Doe', 'IT'),
+  (2, 'HR Manager', 'Manage human resources', 'Los Angeles', 60000.0, 'example2@example.com', 'XYZ Corp.', 'Jane Smith', 'HR'),
+  (3, 'Sales Representative', 'Sales and marketing', 'Chicago', 75000.0, 'example3@example.com', 'SalesCo', 'Mike Johnson', 'SALES'),
+  (4, 'Marketing Specialist', 'Marketing campaigns', 'San Francisco', 70000.0, 'example4@example.com', 'MarketingTech', 'Sarah Brown', 'MARKETING'),
+  (5, 'Data Scientist', 'Data analysis and modeling', 'Mumbai', 90000.0, 'example5@example.com', 'Indian Data', 'Rajesh Patel', 'IT');
+(6, 'Network Administrator', 'Manage network infrastructure', 'Dallas', 75000.0, 'example6@example.com', 'TechNet', 'David Wilson', 'IT'),
+    (7, 'Finance Analyst', 'Financial data analysis', 'London', 68000.0, 'example7@example.com', 'Global Finance', 'Emily Turner', 'FINANCE'),
+    (8, 'Product Manager', 'Product development and strategy', 'San Jose', 85000.0, 'example8@example.com', 'Tech Innovations', 'Michael Clark', 'IT'),
+    (9, 'Customer Service Representative', 'Provide customer support', 'Toronto', 60000.0, 'example9@example.com', 'CustomerCare Inc.', 'Maria Rodriguez', 'SALES'),
+    (10, 'Graphic Designer', 'Create visual designs', 'Paris', 70000.0, 'example10@example.com', 'Creative Designs', 'Sophie Martin', 'MARKETING');
+  (11, 'IT Manager', 'Managing IT campaigns', 'San Francisco', 120000.0, 'example11@example.com', 'MarketingTech', 'Jitin Mishra', 'IT'),
+  (12, 'ML Engineer', 'Creating ML models', 'Mumbai', 98000.0, 'example12@example.com', 'Indian Data', 'Ashish Kumar', 'IT');
+(13, 'Software Lead', 'Leading team of Software Engineers', 'Dallas', 85000.0, 'example13@example.com', 'TechNet', 'Rahul Sharma', 'IT'),
+    (14, 'Finance Analyst', 'Financial data analysis', 'London', 68000.0, 'example14@example.com', 'Global Finance', 'Yuvraj Shah', 'FINANCE'),
+    (15, 'Product Analyst', 'Product analysis', 'California', 85000.0, 'example15@example.com', 'Apple', 'Mitchell Stark', 'IT');
+
+SWAGGER UI:
+
+http://localhost:8080/swagger-ui.html
+
+
+JSON DATA:
+
+[
+    {
+        "id": 1,
+        "title": "Software Engineer",
+        "description": "Develop software applications",
+        "location": "New York",
+        "salary": 80000.0,
+        "companyEmail": "example1@example.com",
+        "companyName": "ABC Inc.",
+        "employerName": "John Doe",
+        "jobType": "IT"
+    },
+    {
+        "id": 2,
+        "title": "HR Manager",
+        "description": "Manage human resources",
+        "location": "Los Angeles",
+        "salary": 60000.0,
+        "companyEmail": "example2@example.com",
+        "companyName": "XYZ Corp.",
+        "employerName": "Jane Smith",
+        "jobType": "HR"
+    },
+    {
+        "id": 3,
+        "title": "Sales Representative",
+        "description": "Sales and marketing",
+        "location": "Chicago",
+        "salary": 75000.0,
+        "companyEmail": "example3@example.com",
+        "companyName": "SalesCo",
+        "employerName": "Mike Johnson",
+        "jobType": "SALES"
+    },
+    {
+        "id": 4,
+        "title": "Marketing Specialist",
+        "description": "Marketing campaigns",
+        "location": "San Francisco",
+        "salary": 70000.0,
+        "companyEmail": "example4@example.com",
+        "companyName": "MarketingTech",
+        "employerName": "Sarah Brown",
+        "jobType": "MARKETING"
+    },
+    {
+        "id": 5,
+        "title": "Data Scientist",
+        "description": "Data analysis and modeling",
+        "location": "Mumbai",
+        "salary": 90000.0,
+        "companyEmail": "example5@example.com",
+        "companyName": "Indian Data",
+        "employerName": "Rajesh Patel",
+        "jobType": "IT"
+    }
+]
+
+
+[
+    {
+        "id": 6,
+        "title": "Network Administrator",
+        "description": "Manage network infrastructure",
+        "location": "Dallas",
+        "salary": 75000.0,
+        "companyEmail": "example6@example.com",
+        "companyName": "TechNet",
+        "employerName": "David Wilson",
+        "jobType": "IT"
+    },
+    {
+        "id": 7,
+        "title": "Finance Analyst",
+        "description": "Financial data analysis",
+        "location": "London",
+        "salary": 68000.0,
+        "companyEmail": "example7@example.com",
+        "companyName": "Global Finance",
+        "employerName": "Emily Turner",
+        "jobType": "FINANCE"
+    },
+    {
+        "id": 8,
+        "title": "Product Manager",
+        "description": "Product development and strategy",
+        "location": "San Jose",
+        "salary": 85000.0,
+        "companyEmail": "example8@example.com",
+        "companyName": "Tech Innovations",
+        "employerName": "Michael Clark",
+        "jobType": "IT"
+    },
+    {
+        "id": 9,
+        "title": "Customer Service Representative",
+        "description": "Provide customer support",
+        "location": "Toronto",
+        "salary": 60000.0,
+        "companyEmail": "example9@example.com",
+        "companyName": "CustomerCare Inc.",
+        "employerName": "Maria Rodriguez",
+        "jobType": "SALES"
+    },
+    {
+        "id": 10,
+        "title": "Graphic Designer",
+        "description": "Create visual designs",
+        "location": "Paris",
+        "salary": 70000.0,
+        "companyEmail": "example10@example.com",
+        "companyName": "Creative Designs",
+        "employerName": "Sophie Martin",
+        "jobType": "MARKETING"
+    }
+]
+
+
+---------------------------------------
+
+API Use case:
+
+
+1. Get All Jobs
+   - Endpoint: GET `http://localhost:8080/jobs`
+   - Description: Get a list of all job postings.
+
+2. Get Job by ID
+   - Endpoint: GET `http://localhost:8080/job/{id}`
+   - Description: Get a specific job posting by its ID.
+
+3. Get All Jobs of the Same Type
+   - Endpoint: GET `http://localhost:8080/jobs/type/{type}`
+   - Description: Get all job postings of a specific job type.
+
+4. Get All Jobs Above a Certain Salary
+   - Endpoint: GET `http://localhost:8080/jobs/salary/range/{salary}`
+   - Description: Get all job postings with a salary above a certain threshold.
+
+5. Get All Jobs within the Same Company
+   - Endpoint: GET `http://localhost:8080/jobs/company/`
+   - Parameters: `companyName` (query parameter)
+   - Description: Get all job postings within the same company based on the company name.
+
+6. Post a Job
+   - Endpoint: POST `http://localhost:8080/job`
+   - Request Body: JSON data representing the job posting.
+   - Description: Create a new job posting.
+
+7. Post Multiple Jobs
+   - Endpoint: POST `http://localhost:8080/jobs`
+   - Request Body: List of JSON objects representing job postings.
+   - Description: Create multiple new job postings.
+
+8. Update Salary by Job ID
+   - Endpoint: PUT `http://localhost:8080/job/id/{id}/salary/{salary}`
+   - Description: Update the salary of a job posting by its ID.
+
+9. Update Location by Job ID
+   - Endpoint: PUT `http://localhost:8080/job/id/{id}/{loc}`
+   - Description: Update the location of a job posting by its ID.
+
+10. Update Email by Job ID
+    - Endpoint: PUT `http://localhost:8080/job/id/{id}/email`
+    - Parameters: `email` (query parameter)
+    - Description: Update the email address of a job posting by its ID.
+
+11. Update Salary of Similar Job Type
+    - Endpoint: PUT `http://localhost:8080/jobs/salaryHike/jobType/{type}`
+    - Description: Update the salaries of job postings with a similar job type by increasing them by 10%.
+
+12. Delete Job by ID
+    - Endpoint: DELETE `http://localhost:8080/job/delete/id/{id}`
+    - Description: Delete a specific job posting by its ID.
+
+13. Delete All Jobs from the Same Company
+    - Endpoint: DELETE `http://localhost:8080/jobs/company/{cName}`
+    - Description: Delete all job postings from the same company based on the company name.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Example :
+
+1. Get All Jobs
+   - Example Endpoint: GET `http://localhost:8080/jobs`
+   - Description: Get a list of all job postings.
+   - Example Response: List of job postings in JSON format.
+
+2. Get Job by ID
+   - Example Endpoint: GET `http://localhost:8080/job/6`
+   - Description: Get a specific job posting by its ID.
+   - Example Response: JSON data for the job with ID 6.
+
+3. Get All Jobs of the Same Type
+   - Example Endpoint: GET `http://localhost:8080/jobs/type/IT`
+   - Description: Get all job postings of the "IT" job type.
+   - Example Response: List of job postings with job type "IT" in JSON format.
+
+4. Get All Jobs Above a Certain Salary
+   - Example Endpoint: GET `http://localhost:8080/jobs/salary/range/70000`
+   - Description: Get all job postings with a salary above $70,000.
+   - Example Response: List of job postings with salaries above $70,000 in JSON format.
+
+5. Get All Jobs within the Same Company
+   - Example Endpoint: GET `http://localhost:8080/jobs/company/?companyName=TechNet`
+   - Description: Get all job postings within the company "TechNet" based on the company name.
+   - Example Response: List of job postings within "TechNet" in JSON format.
+
+6. Post a Job
+   - Example Endpoint: POST `http://localhost:8080/job`
+   - Request Body: JSON data representing a new job posting.
+   - Description: Create a new job posting.
+   - Example Request Body:
+     ```json
+     {
+         "title": "Software Engineer",
+         "description": "Develop software applications",
+         "location": "San Francisco",
+         "salary": 90000.0,
+         "companyEmail": "example11@example.com",
+         "companyName": "Tech Innovations",
+         "employerName": "John Smith",
+         "jobType": "IT"
+     }
+     ```
+
+7. Post Multiple Jobs
+   - Example Endpoint: POST `http://localhost:8080/jobs`
+   - Request Body: List of JSON objects representing new job postings.
+   - Description: Create multiple new job postings.
+   - Example Request Body:
+     ```json
+     [
+         {
+             "title": "Marketing Manager",
+             "description": "Lead marketing campaigns",
+             "location": "New York",
+             "salary": 80000.0,
+             "companyEmail": "example12@example.com",
+             "companyName": "Marketing Pro",
+             "employerName": "Sarah Johnson",
+             "jobType": "MARKETING"
+         },
+         {
+             "title": "Sales Representative",
+             "description": "Generate sales leads",
+             "location": "Chicago",
+             "salary": 70000.0,
+             "companyEmail": "example13@example.com",
+             "companyName": "Sales Solutions",
+             "employerName": "Robert Davis",
+             "jobType": "SALES"
+         }
+     ]
+     ```
+
+8. Update Salary by Job ID
+   - Example Endpoint: PUT `http://localhost:8080/job/id/6/salary/80000`
+   - Description: Update the salary of the job with ID 6 to $80,000.
+   - Example Response: Confirmation message.
+
+9. Update Location by Job ID
+   - Example Endpoint: PUT `http://localhost:8080/job/id/7/London`
+   - Description: Update the location of the job with ID 7 to "London".
+   - Example Response: Confirmation message.
+
+10. Update Email by Job ID
+    - Example Endpoint: PUT `http://localhost:8080/job/id/8/email/?email=newemail@example.com`
+    - Description: Update the email address of the job with ID 8 to "newemail@example.com".
+    - Example Response: Confirmation message.
+
+11. Update Salary of Similar Job Type
+    - Example Endpoint: PUT `http://localhost:8080/jobs/salaryHike/jobType/IT`
+    - Description: Update the salaries of all "IT" job postings by increasing them by 10%.
+    - Example Response: Confirmation message.
+
+12. Delete Job by ID
+    - Example Endpoint: DELETE `http://localhost:8080/job/delete/id/9`
+    - Description: Delete the job with ID 9.
+    - Example Response: Confirmation message.
+
+13. Delete All Jobs from the Same Company
+    - Example Endpoint: DELETE `http://localhost:8080/jobs/company/CustomerCare Inc.`
+    - Description: Delete all job postings from the company "CustomerCare Inc."
+    - Example Response: Confirmation message.
+
+----------------------------------------------------------------------------------------------------
